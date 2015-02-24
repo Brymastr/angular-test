@@ -6,6 +6,6 @@ angular.module('portfolioApp')
     .directive('menuDirective', function() {
         return {
             restrict: 'E',
-            templateUrl: '/app/shared/menu/menuView.html'
+            templateUrl: 'app/shared/menu/menuView.html'
         };
     });
