@@ -9,12 +9,36 @@ body {
 }
 
 #menu {
-//  background: rgba(255, 182, 193, 0.51);
+  background: rgba(12, 12, 12, 0.87);
   height: 100vh;
 }
 
 // Unintended scrollbar fix
 .row {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: -15px;
+  margin-right: -10px;
+}
+
+#menu  {
+  color: #ffffff;
+  position: relative;
+}
+
+#menu-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#social-links {
+  a, a:visited {
+    color: #ffffff;
+  }
+  i {
+    font-size: 15pt;
+  }
+}
+
+.cursor-heart {
+  cursor: url('../../assets/img/heart-icon.png') 16 12, auto;
 }

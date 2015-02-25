@@ -2,10 +2,28 @@
   height: 100vh; }
 
 #menu {
+  background: rgba(12, 12, 12, 0.87);
   height: 100vh; }
 
 .row {
-  margin-left: 0;
-  margin-right: 0; }
+  margin-left: -15px;
+  margin-right: -10px; }
+
+#menu {
+  color: #ffffff;
+  position: relative; }
+
+#menu-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+#social-links a, #social-links a:visited {
+  color: #ffffff; }
+#social-links i {
+  font-size: 15pt; }
+
+.cursor-heart {
+  cursor: url("../../assets/img/heart-icon.png") 16 12, auto; }
 
 /*# sourceMappingURL=main.css.map */
