@@ -1,3 +1,3 @@
-do math to get height of viewport and change hight of divs in main accordingly so that they all fit with a minimum height
-get material design color swatch without having to type it all out
-ng-repeat colors
+set main height to 100vh
+set header to fixed position
+set home-item as 100% - header height / items
