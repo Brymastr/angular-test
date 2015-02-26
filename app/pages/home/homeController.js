@@ -11,22 +11,22 @@ var homeItems = [
     {
         title: 'About',
         description: 'All about me',
-        color: materialColors[4]
+        color: materialColors[5]
     }, {
         title: 'Experience',
         description: 'Jobs and technologies',
-        color: materialColors[5]
+        color: materialColors[6]
     }, {
         title: 'Web Projects',
         description: 'Sites and apps built for the web',
-        color: materialColors[6]
+        color: materialColors[7]
     }, {
         title: 'Mobile Projects',
         description: 'Android and iOS application projects',
-        color: materialColors[7]
+        color: materialColors[8]
     }, {
         title: 'Other Projects',
         description: 'Because trying new things is fun',
-        color: materialColors[8]
+        color: materialColors[9]
     }
 ];

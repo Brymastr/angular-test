@@ -1,5 +1,17 @@
-@mixin vp-small {
+@mixin vpw-small {
   @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+
+@mixin vpw-medium {
+  @media only screen and (min-width: 60em) {
+    @content;
+  }
+}
+
+@mixin vpw-max {
+  @media only screen and (min-width: 100em) {
     @content;
   }
 }

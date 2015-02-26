@@ -69,19 +69,30 @@ body {
   @media only screen and (max-width: 60em) {
     #main .h1 {
       font-size: 20pt; } }
+  @media only screen and (min-width: 100em) {
+    #main .h1 {
+      font-size: 35pt; } }
 #main p {
   font-size: 1.5vw; }
   @media only screen and (max-width: 60em) {
     #main p {
       font-size: 10pt; } }
+  @media only screen and (min-width: 100em) {
+    #main p {
+      font-size: 18pt; } }
 
 .row {
   margin-left: -15px;
   margin-right: -10px; }
 
 .home-item {
-  margin: 3px -15px 0 -10px;
+  height: 20vh;
+  min-height: 72px;
+  margin-right: -20px;
   padding: 10px; }
+  @media only screen and (min-width: 60em) {
+    .home-item {
+      min-height: 105px; } }
   .home-item .h1 {
     margin: 0; }
 

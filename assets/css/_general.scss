@@ -78,14 +78,20 @@ body {
   .h1 {
     text-transform: uppercase;
     font-size: 3vw;
-    @include vp-small {
+    @include vpw-small {
       font-size: 20pt;
+    }
+    @include vpw-max {
+      font-size: 35pt;
     }
   }
   p {
     font-size: 1.5vw;
-    @include vp-small {
+    @include vpw-small {
       font-size: 10pt;
+    }
+    @include vpw-max {
+      font-size: 18pt;
     }
   }
 }
@@ -97,7 +103,13 @@ body {
 }
 
 .home-item {
-  margin: 3px -15px 0 -10px;
+  height: 100vh / $home-items;
+  min-height: 72px;
+  @include vpw-medium {
+    min-height: 105px;
+  }
+//  margin: 3px -15px 0 -10px;
+  margin-right: -20px;
   padding: 10px;
   .h1 {
     margin: 0;
