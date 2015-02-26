@@ -1,8 +1,3 @@
-body {
-//  background: rgba(10, 149, 0, 0.18);
-//  overflow: hidden;
-}
-
 #main {
 //  background: rgba(0, 0, 255, 0.24);
   height: 100vh;
@@ -11,12 +6,6 @@ body {
 #menu {
   background: rgba(12, 12, 12, 0.87);
   height: 100vh;
-}
-
-// Unintended scrollbar fix
-.row {
-  margin-left: -15px;
-  margin-right: -10px;
 }
 
 #menu  {
@@ -28,9 +17,16 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
+  p {
+    margin-bottom: 5px;
+  }
 }
 
 #social-links {
+
+  ul {
+    margin: 0;
+  }
   a, a:visited {
     color: #ffffff;
   }
@@ -39,6 +35,16 @@ body {
   }
 }
 
+#by-line {
+  color: rgba(236, 236, 236, 0.43);
+}
+
 .cursor-heart {
   cursor: url('../../assets/img/heart-icon.png') 16 12, auto;
+}
+
+// Unintended scrollbar issue fix
+.row {
+  margin-left: -15px;
+  margin-right: -10px;
 }
