@@ -14,6 +14,14 @@ nav {
   background: $dark-background;
 }
 
+ul.side-nav {
+  background: $dark-background;
+  a {
+    color: $white;
+
+  }
+}
+
 #menu {
   background: $dark-background;
   height: 100vh;

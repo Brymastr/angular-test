@@ -20,6 +20,11 @@ body {
 nav {
   background: #141414; }
 
+ul.side-nav {
+  background: #141414; }
+  ul.side-nav a {
+    color: #ffffff; }
+
 #menu {
   background: #141414;
   height: 100vh;
