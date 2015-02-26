@@ -10,17 +10,16 @@ body {
   height: 100vh;
 }
 
+nav {
+  background: $dark-background;
+}
+
 #menu {
   background: $dark-background;
   height: 100vh;
   min-height: 200px;
   position: fixed;
   color: $white;
-  @include vpw-small {
-    position: relative;
-    height: auto;
-    min-height: inherit;
-  }
 }
 
 #banner {
@@ -28,9 +27,6 @@ body {
   font-size: 3.5vw;
   @include vpw-max {
     font-size: 42pt;
-  }
-  @include vpw-small {
-    font-size: 25pt;
   }
   text-transform: uppercase;
 }

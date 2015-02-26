@@ -17,17 +17,15 @@ body {
 #main {
   height: 100vh; }
 
+nav {
+  background: #141414; }
+
 #menu {
   background: #141414;
   height: 100vh;
   min-height: 200px;
   position: fixed;
   color: #ffffff; }
-  @media only screen and (max-width: 60em) {
-    #menu {
-      position: relative;
-      height: auto;
-      min-height: inherit; } }
 
 #banner {
   font-family: Roboto-Light, sans-serif;
@@ -36,9 +34,6 @@ body {
   @media only screen and (min-width: 100em) {
     #banner {
       font-size: 42pt; } }
-  @media only screen and (max-width: 60em) {
-    #banner {
-      font-size: 25pt; } }
 
 #nav img {
   max-height: 50px; }

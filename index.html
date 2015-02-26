@@ -15,7 +15,24 @@
 
 <div class="container-fluid">
     <div class="row">
+
+        <!--Mobile only navbar-->
+        <nav class="hidden-md hidden-lg">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Brycen Dorsay</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Home</a></li>
+                    <li><a href="components.html">About</a></li>
+                    <li><a href="javascript.html">Projects</a></li>
+                    <li><a href="mobile.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Desktop only navigation sidebar-->
         <menu-directive></menu-directive>
+
         <!--Content and columns change on ng-switch based on routing-->
         <div id="main" class="col-md-8 col-xs-12">
             <div ng-include="'app/pages/home/homeView.html'"></div>
@@ -36,5 +53,7 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 </html>
