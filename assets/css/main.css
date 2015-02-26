@@ -25,7 +25,9 @@ body {
   color: #ffffff; }
   @media only screen and (max-width: 60em) {
     #menu {
-      position: relative; } }
+      position: relative;
+      height: auto;
+      min-height: inherit; } }
 
 #banner {
   font-family: Roboto-Light, sans-serif;
