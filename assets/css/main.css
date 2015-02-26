@@ -11,13 +11,14 @@
   font-family: Roboto-LightItalic;
   src: url("/assets/fonts/Roboto/Roboto-LightItalic.ttf"); }
 body {
-  font-family: Roboto-Light, sans-serif; }
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
 
 #main {
   height: 100vh; }
 
 #menu {
-  background: rgba(12, 12, 12, 0.87);
+  background: #141414;
   height: 100vh;
   min-height: 200px;
   position: fixed;
@@ -68,5 +69,11 @@ body {
 .row {
   margin-left: -15px;
   margin-right: -10px; }
+
+.home-item {
+  margin: 3px -15px 0 -10px;
+  padding: 10px; }
+  .home-item .h1 {
+    margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

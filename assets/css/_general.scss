@@ -1,18 +1,20 @@
+@import "variables";
+
 body {
   font-family: Roboto-Light, sans-serif;
+  color: $white;
 }
 
 #main {
-//  background: rgba(0, 0, 255, 0.24);
   height: 100vh;
 }
 
 #menu {
-  background: rgba(12, 12, 12, 0.87);
+  background: #141414;
   height: 100vh;
   min-height: 200px;
   position: fixed;
-  color: #ffffff;
+  color: $white;
 }
 
 #banner {
@@ -49,12 +51,11 @@ body {
 }
 
 #social-links {
-
   ul {
     margin: 0;
   }
   a, a:visited {
-    color: #ffffff;
+    color: $white;
   }
   i {
     font-size: 15pt;
@@ -82,4 +83,12 @@ body {
 .row {
   margin-left: -15px;
   margin-right: -10px;
+}
+
+.home-item {
+  margin: 3px -15px 0 -10px;
+  padding: 10px;
+  .h1 {
+    margin: 0;
+  }
 }
