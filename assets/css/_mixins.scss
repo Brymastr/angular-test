@@ -1,0 +1,5 @@
+@mixin vp-small {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}

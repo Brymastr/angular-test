@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 body {
   font-family: Roboto-Light, sans-serif;
@@ -76,6 +77,16 @@ body {
 #main {
   .h1 {
     text-transform: uppercase;
+    font-size: 3vw;
+    @include vp-small {
+      font-size: 20pt;
+    }
+  }
+  p {
+    font-size: 1.5vw;
+    @include vp-small {
+      font-size: 10pt;
+    }
   }
 }
 

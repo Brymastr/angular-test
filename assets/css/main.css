@@ -64,7 +64,16 @@ body {
   cursor: url("../../assets/img/heart-icon.png") 16 12, auto; }
 
 #main .h1 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 3vw; }
+  @media only screen and (max-width: 60em) {
+    #main .h1 {
+      font-size: 20pt; } }
+#main p {
+  font-size: 1.5vw; }
+  @media only screen and (max-width: 60em) {
+    #main p {
+      font-size: 10pt; } }
 
 .row {
   margin-left: -15px;
