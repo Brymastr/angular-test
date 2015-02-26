@@ -15,12 +15,21 @@ body {
   height: 100vh;
   min-height: 200px;
   position: fixed;
+  @include vpw-small {
+    position: relative;
+  }
   color: $white;
 }
 
 #banner {
   font-family: Roboto-Light, sans-serif;
   font-size: 3.5vw;
+  @include vpw-max {
+    font-size: 42pt;
+  }
+  @include vpw-small {
+    font-size: 25pt;
+  }
   text-transform: uppercase;
 }
 
@@ -99,7 +108,7 @@ body {
 // Unintended scrollbar issue fix
 .row {
   margin-left: -15px;
-  margin-right: -10px;
+  margin-right: -15px;
 }
 
 .home-item {
@@ -108,8 +117,6 @@ body {
   @include vpw-medium {
     min-height: 105px;
   }
-//  margin: 3px -15px 0 -10px;
-  margin-right: -20px;
   padding: 10px;
   .h1 {
     margin: 0;

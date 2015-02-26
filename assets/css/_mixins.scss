@@ -5,7 +5,7 @@
 }
 
 @mixin vpw-medium {
-  @media only screen and (min-width: 60em) {
+  @media only screen and (min-width: 61em) {
     @content;
   }
 }
