@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5293c00a-ec43-47b3-8054-25d129abba02" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldCondensed.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldCondensedItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Condensed.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-CondensedItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/heart-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/heart.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/_general.scss" afterPath="$PROJECT_DIR$/assets/css/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.scss" afterPath="$PROJECT_DIR$/assets/css/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/menu/menuView.html" afterPath="$PROJECT_DIR$/app/shared/menu/menuView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Documents\Sites\angular-test\assets\img\text.txt" afterPath="$PROJECT_DIR$/assets/css/_fonts.scss" />
     </list>
     <ignored path="angular-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,33 +53,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menuDirective.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/shared/menu/menuDirective.js">
+      <file leaf-file-name="menuView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#43#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="731">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="935">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
+      <file leaf-file-name="homeView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/pages/home/homeView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="969">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,8 +76,8 @@
       <file leaf-file-name="_general.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17586207" vertical-offset="0" max-vertical-offset="969">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.8436782" vertical-offset="269" max-vertical-offset="1241">
+              <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -98,7 +105,6 @@
         <option value="$PROJECT_DIR$/app/components/resume/resumeView.html" />
         <option value="$PROJECT_DIR$/app/components/resume/resumeController.js" />
         <option value="$PROJECT_DIR$/app/app.module.js" />
-        <option value="$PROJECT_DIR$/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/app/app.routes.js" />
         <option value="$PROJECT_DIR$/app/components/home/homeController.js" />
         <option value="$PROJECT_DIR$/app/components/home/homeView.html" />
@@ -108,8 +114,10 @@
         <option value="$PROJECT_DIR$/app/pages/home/homeController.js" />
         <option value="$PROJECT_DIR$/app/pages/home/homeView.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/_general.scss" />
+        <option value="$PROJECT_DIR$/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/assets/css/_fonts.scss" />
         <option value="$PROJECT_DIR$/app/shared/menu/menuView.html" />
+        <option value="$PROJECT_DIR$/assets/css/_general.scss" />
       </list>
     </option>
   </component>
@@ -192,97 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fontawesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main.scss" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,6 +297,10 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Sites\angular-test\assets\fonts\Roboto" />
+      <recent name="D:\Documents\Sites\angular-test\assets\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/node_modules" />
@@ -493,7 +415,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424909027969</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Sidebar fixed position&#10;&#10;Had to add a bootstrap div behind the sidebar so the main section is still in the correct position">
+      <created>1424910424133</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1424910424133</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,7 +473,8 @@
     <MESSAGE value="Installed fontawesome with bower" />
     <MESSAGE value="Sticky menu footer" />
     <MESSAGE value="Footer in correct position in menu&#10;&#10;Looks good and solid. Good code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer in correct position in menu&#10;&#10;Looks good and solid. Good code" />
+    <MESSAGE value="Sidebar fixed position&#10;&#10;Had to add a bootstrap div behind the sidebar so the main section is still in the correct position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar fixed position&#10;&#10;Had to add a bootstrap div behind the sidebar so the main section is still in the correct position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,20 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="639">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/about/aboutController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
@@ -742,14 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18973215" vertical-offset="0" max-vertical-offset="896">
@@ -784,14 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/home/homeView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1954023" vertical-offset="0" max-vertical-offset="870">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12190813" vertical-offset="5524" max-vertical-offset="25942">
@@ -800,9 +699,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="870">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01954023" vertical-offset="0" max-vertical-offset="870">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="870">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/menu/menuDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state vertical-scroll-proportion="0.03794643" vertical-offset="0" max-vertical-offset="896">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
@@ -810,26 +741,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="731">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="935">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
+    <entry file="file://$PROJECT_DIR$/app/pages/home/homeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="969">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17586207" vertical-offset="0" max-vertical-offset="969">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.8436782" vertical-offset="269" max-vertical-offset="1241">
+          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
           <folding />
         </state>
       </provider>

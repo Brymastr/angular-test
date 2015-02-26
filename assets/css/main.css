@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Roboto-Black;
+  src: url("/assets/fonts/Roboto/Roboto-Black.ttf"); }
+@font-face {
+  font-family: Roboto-BlackItalic;
+  src: url("/assets/fonts/Roboto/Roboto-BlackItalic.ttf"); }
+@font-face {
+  font-family: Roboto-Light;
+  src: url("/assets/fonts/Roboto/Roboto-Light.ttf"); }
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url("/assets/fonts/Roboto/Roboto-LightItalic.ttf"); }
+body {
+  font-family: Roboto-Light, sans-serif; }
+
 #main {
   height: 100vh; }
 
@@ -7,6 +22,11 @@
   min-height: 200px;
   position: fixed;
   color: #ffffff; }
+
+#banner {
+  font-family: Roboto-Light, sans-serif;
+  font-size: 3.5vw;
+  text-transform: uppercase; }
 
 #menu-footer {
   position: absolute;
@@ -29,6 +49,9 @@
 
 .cursor-heart {
   cursor: url("../../assets/img/heart-icon.png") 16 12, auto; }
+
+#main .h1 {
+  text-transform: uppercase; }
 
 .row {
   margin-left: -15px;

@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto-Light, sans-serif;
+}
+
 #main {
 //  background: rgba(0, 0, 255, 0.24);
   height: 100vh;
@@ -9,6 +13,12 @@
   min-height: 200px;
   position: fixed;
   color: #ffffff;
+}
+
+#banner {
+  font-family: Roboto-Light, sans-serif;
+  font-size: 3.5vw;
+  text-transform: uppercase;
 }
 
 #menu-footer {
@@ -42,6 +52,12 @@
 
 .cursor-heart {
   cursor: url('../../assets/img/heart-icon.png') 16 12, auto;
+}
+
+#main {
+  .h1 {
+    text-transform: uppercase;
+  }
 }
 
 // Unintended scrollbar issue fix
