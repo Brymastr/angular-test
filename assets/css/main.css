@@ -3,11 +3,10 @@
 
 #menu {
   background: rgba(12, 12, 12, 0.87);
-  height: 100vh; }
-
-#menu {
-  color: #ffffff;
-  position: relative; }
+  height: 100vh;
+  min-height: 200px;
+  position: fixed;
+  color: #ffffff; }
 
 #menu-footer {
   position: absolute;
@@ -25,6 +24,8 @@
 
 #by-line {
   color: rgba(236, 236, 236, 0.43); }
+  #by-line a, #by-line a:visited {
+    color: #b8b8b8; }
 
 .cursor-heart {
   cursor: url("../../assets/img/heart-icon.png") 16 12, auto; }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5293c00a-ec43-47b3-8054-25d129abba02" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/_general.scss" afterPath="$PROJECT_DIR$/assets/css/_general.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/menu/menuView.html" afterPath="$PROJECT_DIR$/app/shared/menu/menuView.html" />
@@ -45,11 +46,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="731">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="menuView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.538462" vertical-offset="31" max-vertical-offset="935">
-              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="969">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -58,8 +69,8 @@
       <file leaf-file-name="_general.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41034484" vertical-offset="0" max-vertical-offset="952">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.17586207" vertical-offset="0" max-vertical-offset="969">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -97,8 +108,8 @@
         <option value="$PROJECT_DIR$/app/pages/home/homeController.js" />
         <option value="$PROJECT_DIR$/app/pages/home/homeView.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/shared/menu/menuView.html" />
         <option value="$PROJECT_DIR$/assets/css/_general.scss" />
+        <option value="$PROJECT_DIR$/app/shared/menu/menuView.html" />
       </list>
     </option>
   </component>
@@ -476,7 +487,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424908429444</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Footer in correct position in menu&#10;&#10;Looks good and solid. Good code">
+      <created>1424909027969</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1424909027969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -527,7 +544,8 @@
     <MESSAGE value="Unintended scrollbar issue fix&#10;&#10;Using container-fluid was causing the vertical and horizontal scrollbars to appear so I used row { margin: 0; } to fix it. At least temporarily" />
     <MESSAGE value="Installed fontawesome with bower" />
     <MESSAGE value="Sticky menu footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sticky menu footer" />
+    <MESSAGE value="Footer in correct position in menu&#10;&#10;Looks good and solid. Good code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer in correct position in menu&#10;&#10;Looks good and solid. Good code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -782,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="731">
-          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/menu/menuDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -800,18 +810,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="731">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.538462" vertical-offset="31" max-vertical-offset="935">
-          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="969">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41034484" vertical-offset="0" max-vertical-offset="952">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.17586207" vertical-offset="0" max-vertical-offset="969">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
