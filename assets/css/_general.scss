@@ -21,6 +21,24 @@ body {
   text-transform: uppercase;
 }
 
+#nav {
+  img {
+    max-height: 50px;
+  }
+  #nav-back {
+    transform: rotate(-90deg);
+  }
+  #nav-forward {
+    transform: rotate(90deg);
+  }
+  #nav-divider {
+    background-image: url("/assets/img/nav-div-icon.png");
+    height: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 #menu-footer {
   position: absolute;
   bottom: 0;

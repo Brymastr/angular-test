@@ -28,6 +28,18 @@ body {
   font-size: 3.5vw;
   text-transform: uppercase; }
 
+#nav img {
+  max-height: 50px; }
+#nav #nav-back {
+  transform: rotate(-90deg); }
+#nav #nav-forward {
+  transform: rotate(90deg); }
+#nav #nav-divider {
+  background-image: url("/assets/img/nav-div-icon.png");
+  height: 3px;
+  width: 100%;
+  margin-bottom: 20px; }
+
 #menu-footer {
   position: absolute;
   bottom: 0;
