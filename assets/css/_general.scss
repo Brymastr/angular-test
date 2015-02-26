@@ -18,8 +18,11 @@ ul.side-nav {
   background: $dark-background;
   a {
     color: $white;
-
   }
+}
+
+.brand-logo {
+  min-width: 300px;
 }
 
 #menu {

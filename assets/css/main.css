@@ -25,6 +25,9 @@ ul.side-nav {
   ul.side-nav a {
     color: #ffffff; }
 
+.brand-logo {
+  min-width: 300px; }
+
 #menu {
   background: #141414;
   height: 100vh;
