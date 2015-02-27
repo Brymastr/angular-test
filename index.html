@@ -22,10 +22,10 @@
                 <a href="#!" class="brand-logo text-uppercase text-center">Brycen Dorsay</a>
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Home</a></li>
-                    <li><a href="components.html">About</a></li>
-                    <li><a href="javascript.html">Projects</a></li>
-                    <li><a href="mobile.html">Contact</a></li>
+                    <li><a ng-href="sass.html">Home</a></li>
+                    <li><a ng-href="components.html">About</a></li>
+                    <li><a ng-href="javascript.html">Projects</a></li>
+                    <li><a ng-href="mobile.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -35,7 +35,7 @@
 
         <!--Content and columns change on ng-switch based on routing-->
         <div id="main" class="col-md-8 col-xs-12">
-            <ng-view></ng-view>
+            <div ng-view class="page {{pageClass}}"></div>
         </div>
     </div>
 </div>
@@ -44,6 +44,7 @@
 <!--Angular modules-->
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/angular-route/angular-route.min.js"></script>
+<script src="node_modules/angular-animate/angular-animate.min.js"></script>
 
 <!--TODO: somehow autoload, maybe with browserify-->
 <script src="app/app.module.js"></script>

@@ -6,7 +6,19 @@
   100%    { transform: translateY(100%) rotateZ(17deg); }
 }
 
+@keyframes scaleUp {
+  from    { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+@keyframes slideOutLeft {
+  to      { transform: translateX(-100%); }
+}
+
+.ng-enter {
+  animation: scaleUp 0.5s both ease-in;
+}
+
 .ng-leave {
-  animation: rotateFall 0.5s both ease-in;
+  animation: slideOutLeft 0.5s both ease-out;
   z-index: 100;
 }

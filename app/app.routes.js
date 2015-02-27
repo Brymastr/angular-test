@@ -9,7 +9,8 @@ app.config(function($routeProvider, $locationProvider) {
             controller: 'HomeController'
         })
         .when('/about',  {
-            templateUrl: '../app/pages/about/aboutView.html'
+            templateUrl: '../app/pages/about/aboutView.html',
+            controller: 'AboutController'
         });
 
     $locationProvider.html5Mode(true);

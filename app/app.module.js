@@ -2,7 +2,7 @@
  * Created by brycen on 15-02-14.
  */
 
-var app = angular.module('portfolioApp', ['ngRoute']);
+var app = angular.module('portfolioApp', ['ngRoute', 'ngAnimate']);
 
 var materialColors = [
     '#F44336',
