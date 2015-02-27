@@ -4,14 +4,13 @@
 body {
   font-family: Roboto-Light, sans-serif;
   color: $white;
-  overflow: hidden;
+//  overflow: hidden;
 }
 
 nav {
   background: $dark-background;
   position: absolute;
   height: 64px;
-  z-index: 100;
 }
 
 nav a.button-collapse i {
@@ -36,11 +35,13 @@ ul.side-nav {
   min-height: 200px;
   position: fixed;
   color: $white;
+  z-index: 100;
 }
 
 #banner {
   font-family: Roboto-Light, sans-serif;
   font-size: 3.5vw;
+  cursor: pointer;
   @include vpw-max {
     font-size: 42pt;
   }
@@ -100,12 +101,12 @@ ul.side-nav {
 #main {
   @include vpw-small {
     margin-top: 64px;
+//    z-index: 10;
   }
   .h1 {
     text-transform: uppercase;
     font-size: 3vw;
     position: relative;
-    z-index: 90;
     @include vpw-small {
       font-size: 20pt;
     }

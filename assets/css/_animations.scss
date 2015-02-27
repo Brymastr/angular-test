@@ -3,7 +3,7 @@
   top:0;
   left:15px;
   right:15px;
-  z-index: 90;
+  z-index: 10;
 }
 
 .page.ng-enter {
@@ -14,48 +14,49 @@
 .page.ng-leave {
   -webkit-animation: 0.5s slide-animation-leave;
   animation: 0.5s slide-animation-leave;
+
 }
 
 @keyframes slide-animation-enter {
   from {
-    top:600px;
+    left:600px;
     opacity:0;
   }
   to {
-    top:0;
+    left:15px;
     opacity:1;
   }
 }
 
 @keyframes slide-animation-leave {
   from {
-    top:0;
+    left:15px;
     opacity:1;
   }
   to {
-    top:-600px;
+    left:-1000px;
     opacity:0;
   }
 }
 
 @-webkit-keyframes slide-animation-enter {
   from {
-    top:600px;
+    left:1000px;
     opacity:0;
   }
   to {
-    top:0;
+    left:15px;
     opacity:1;
   }
 }
 
 @-webkit-keyframes slide-animation-leave {
   from {
-    top:0;
+    left:15px;
     opacity:1;
   }
   to {
-    top:-700px;
+    left:-1000px;
     opacity:0;
   }
 }

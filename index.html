@@ -16,16 +16,19 @@
 
 <div class="container-fluid">
     <div class="row">
+
         <!--Mobile only navbar-->
         <nav class="hidden-md hidden-lg" id="mobile-nav">
             <div class="nav-wrapper">
                 <a href="/" class="brand-logo text-uppercase text-center">Brycen Dorsay</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-                <ul class="side-nav" id="mobile-demo">
+                <a href="#" data-activates="side-nav" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <ul class="side-nav" id="side-nav">
                     <li><a ng-href="/">Home</a></li>
-                    <li><a ng-href="about">About</a></li>
-                    <li><a ng-href="javascript.html">Projects</a></li>
-                    <li><a ng-href="mobile.html">Contact</a></li>
+                    <li><a ng-href="/about">About</a></li>
+                    <li><a ng-href="web">Web Projects</a></li>
+                    <li><a ng-href="mobile">Mobile Projects</a></li>
+                    <li><a ng-href="other">Other Projects</a></li>
+                    <li><a ng-href="exp">Experience</a></li>
                 </ul>
             </div>
         </nav>
@@ -50,6 +53,7 @@
 <script src="app/app.module.js"></script>
 <script src="app/app.routes.js"></script>
 <script src="app/shared/menu/menuDirective.js"></script>
+<script src="app/shared/menu/menuController.js"></script>
 <script src="app/pages/home/homeController.js"></script>
 <script src="app/pages/about/aboutController.js"></script>
 
