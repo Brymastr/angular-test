@@ -4,6 +4,7 @@
 body {
   font-family: Roboto-Light, sans-serif;
   color: $white;
+  overflow: hidden;
 }
 
 nav {
@@ -92,6 +93,7 @@ ul.side-nav {
   .h1 {
     text-transform: uppercase;
     font-size: 3vw;
+    position: relative;
     @include vpw-small {
       font-size: 20pt;
     }
