@@ -3,6 +3,7 @@
   top:0;
   left:15px;
   right:15px;
+  z-index: 90;
 }
 
 .page.ng-enter {
@@ -17,7 +18,6 @@
 
 @keyframes slide-animation-enter {
   from {
-    z-index:100;
     top:600px;
     opacity:0;
   }
@@ -29,7 +29,6 @@
 
 @keyframes slide-animation-leave {
   from {
-    z-index:101;
     top:0;
     opacity:1;
   }
@@ -41,7 +40,6 @@
 
 @-webkit-keyframes slide-animation-enter {
   from {
-    z-index:100;
     top:600px;
     opacity:0;
   }
@@ -53,7 +51,6 @@
 
 @-webkit-keyframes slide-animation-leave {
   from {
-    z-index:101;
     top:0;
     opacity:1;
   }

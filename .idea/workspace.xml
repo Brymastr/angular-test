@@ -34,21 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.508046" vertical-offset="51" max-vertical-offset="1156">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_animations.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_animations.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/_animations.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05862069" vertical-offset="0" max-vertical-offset="1173">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1122">
               <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="1309" max-vertical-offset="2720">
+              <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -95,8 +105,8 @@
         <option value="$PROJECT_DIR$/app/pages/home/homeController.js" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/_animations.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/css/_general.scss" />
       </list>
     </option>
@@ -521,7 +531,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425004972129</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Animating page transitions with slide in animation">
+      <created>1425014436233</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1425014436233</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -564,7 +580,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Modules&#10;&#10;jQuery, Bootstrap, Normalize" />
     <MESSAGE value="ng-repeat on home items" />
     <MESSAGE value="Removed home div, all non-menu now in main" />
     <MESSAGE value="Unintended scrollbar issue fix&#10;&#10;Using container-fluid was causing the vertical and horizontal scrollbars to appear so I used row { margin: 0; } to fix it. At least temporarily" />
@@ -589,7 +604,8 @@
     <MESSAGE value="Angular animate&#10;&#10;Not working but it is imported. There is a problem with routing. It goes to the about page but the scope variables in the AboutController are not working in aboutView.html" />
     <MESSAGE value="Removed workspace.xml finally" />
     <MESSAGE value=".htaccess working for page reloading" />
-    <option name="LAST_COMMIT_MESSAGE" value=".htaccess working for page reloading" />
+    <MESSAGE value="Animating page transitions with slide in animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Animating page transitions with slide in animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -968,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="374">
@@ -984,18 +992,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/_animations.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11724138" vertical-offset="0" max-vertical-offset="2516">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1122">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/_animations.scss">
+    <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05862069" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="1309" max-vertical-offset="2720">
+          <caret line="101" column="21" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.508046" vertical-offset="51" max-vertical-offset="1156">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
       </provider>
