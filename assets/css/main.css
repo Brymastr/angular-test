@@ -10,6 +10,22 @@
 @font-face {
   font-family: Roboto-LightItalic;
   src: url("/assets/fonts/Roboto/Roboto-LightItalic.ttf"); }
+@keyframes rotateFall {
+  0% {
+    transform: rotateZ(0deg); }
+  20% {
+    transform: rotateZ(10deg);
+    animation-timing-function: ease-out; }
+  40% {
+    transform: rotateZ(17deg); }
+  60% {
+    transform: rotateZ(16deg); }
+  100% {
+    transform: translateY(100%) rotateZ(17deg); } }
+.ng-leave {
+  animation: rotateFall 0.5s both ease-in;
+  z-index: 100; }
+
 body {
   font-family: Roboto-Light, sans-serif;
   color: #ffffff; }
