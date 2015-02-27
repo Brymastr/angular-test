@@ -4,7 +4,6 @@
 
 app.controller('HomeController', function($scope, $location) {
     $scope.items = homeItems;
-    $scope.name = 'from home';
     $scope.pageClass = 'page-home';
     $scope.goTo = function(path) {
         $location.path(path);
