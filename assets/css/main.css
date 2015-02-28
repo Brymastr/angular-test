@@ -103,14 +103,18 @@ ul.side-nav {
   width: 100%;
   margin-bottom: 20px; }
 
-#photo-div {
-  margin-top: 10vh; }
-  #photo-div #face-photo {
-    max-width: 150px;
-    margin: 0 auto; }
-    @media only screen and (max-height: 460px) {
-      #photo-div #face-photo {
-        display: none; } }
+@media only screen and (min-height: 27em) {
+  #photo-div {
+    margin-top: 10vh; } }
+@media only screen and (min-height: 40em) {
+  #photo-div {
+    margin-top: 20vh; } }
+#photo-div #face-photo {
+  max-width: 150px;
+  margin: 0 auto; }
+  @media only screen and (max-height: 27em) {
+    #photo-div #face-photo {
+      display: none; } }
 
 #menu-footer {
   position: absolute;

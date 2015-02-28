@@ -15,3 +15,21 @@
     @content;
   }
 }
+
+@mixin vph-small {
+  @media only screen and (max-height: 27em) {
+    @content;
+  }
+}
+
+@mixin vph-medium {
+  @media only screen and (min-height: 27em) {
+    @content;
+  }
+}
+
+@mixin vph-large {
+  @media only screen and (min-height: 40em) {
+    @content;
+  }
+}

@@ -67,11 +67,16 @@ ul.side-nav {
 }
 
 #photo-div {
-  margin-top: 10vh;
+  @include vph-medium {
+    margin-top: 10vh;
+  }
+  @include vph-large {
+    margin-top: 20vh;
+  }
   #face-photo {
     max-width: 150px;
     margin: 0 auto;
-    @media only screen and (max-height: 460px) {
+    @include vph-small {
       display: none;
     }
   }
