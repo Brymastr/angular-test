@@ -1,5 +1,14 @@
-<div ng-controller="ProjectsController" style="color: #000000;">
-    <div ng-repeat="project in projects | filter: {category: category}">
-        <div class="h1">{{project.name}}</div>
+<div ng-controller="ProjectsController">
+    <div class="row project-item item waves-effect waves-block waves-light" ng-repeat="project in projects | filter: {category: category}" ng-style="{backgroundColor: project.color}">
+        <div class="row">
+            <div class="col-md-6 col-xs-12 h1">{{project.name}}</div>
+            <p class="col-md-6 col-xs-12">
+                <span ng-repeat="technology in project.technologies">{{technology}} &nbsp;</span>
+            </p>
+        </div>
+        <div class="row">
+            <p class="col-md-12 col-xs-12">{{project.description}}</p>
+        </div>
+        {{ isLast($last, project.color) }}
     </div>
 </div>

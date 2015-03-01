@@ -24,17 +24,17 @@ var homeItems = [
     }, {
         title: 'Web Projects',
         description: 'Sites and apps built for the web',
-        url: 'web',
+        url: 'projects/web',
         color: materialColors[7]
     }, {
         title: 'Mobile Projects',
         description: 'Android and iOS application projects',
-        url: 'mobile',
+        url: 'projects/mobile',
         color: materialColors[8]
     }, {
         title: 'Other Projects',
         description: 'Because trying new things is fun',
-        url: 'other',
+        url: 'projects/other',
         color: materialColors[9]
     }
 ];
