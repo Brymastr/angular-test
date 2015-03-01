@@ -11,7 +11,12 @@ app.config(function($routeProvider, $locationProvider) {
         .when('/about',  {
             templateUrl: '../app/pages/about/aboutView.html',
             controller: 'AboutController'
-        });
+        })
+        .when('/projects/:category',  {
+            templateUrl: '../app/pages/projects/projectsView.html',
+            controller: "ProjectsController"
+        }
+    );
 
     $locationProvider.html5Mode(true);
 });
