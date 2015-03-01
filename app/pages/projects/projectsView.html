@@ -1,9 +1,9 @@
 <div ng-controller="ProjectsController">
     <div class="row project-item item waves-effect waves-block waves-light" ng-repeat="project in projects | filter: {category: category}" ng-style="{backgroundColor: project.color}">
         <div class="row">
-            <div class="col-md-6 col-xs-12 h1">{{project.name}}</div>
-            <p class="col-md-6 col-xs-12">
-                <span ng-repeat="technology in project.technologies">{{technology}} &nbsp;</span>
+            <div class="col-md-5 col-xs-12 h1">{{project.name}}</div>
+            <p class="col-md-7 col-xs-12">
+                <span class="project-tech" ng-repeat="technology in project.technologies">{{technology}} &nbsp;</span>
             </p>
         </div>
         <div class="row">

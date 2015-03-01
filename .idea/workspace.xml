@@ -4,254 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="54" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5293c00a-ec43-47b3-8054-25d129abba02" name="Default" comment="Social icon animation">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/eager.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/hover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/logo-transparent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_back-pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_back-pulse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_bob.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_bob.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_border-fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_border-fade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_bounce-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_bounce-in.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_bounce-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_bounce-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_bounce-to-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_bounce-to-bottom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_bounce-to-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_bounce-to-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_bounce-to-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_bounce-to-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_bounce-to-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_bounce-to-top.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_box-shadow-inset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_box-shadow-inset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_box-shadow-outset.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_box-shadow-outset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-bottom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-float-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-float-bottom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-float-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-float-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-float-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-float-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-float-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-float-top.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/speech-bubbles/_bubble-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/speech-bubbles/_bubble-top.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_buzz-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_buzz-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_buzz.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_buzz.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/curls/_curl-bottom-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/curls/_curl-bottom-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/curls/_curl-bottom-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/curls/_curl-bottom-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/curls/_curl-top-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/curls/_curl-top-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/curls/_curl-top-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/curls/_curl-top-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_fade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_float-shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_float-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_float.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_glow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_glow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_grow-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_grow-rotate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_grow-shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_grow-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_grow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/_hacks.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/_hacks.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_hang.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_hang.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_hollow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_hollow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-back.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-back.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-bob.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-bob.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-bounce-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-bounce-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-bounce.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-bounce.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-buzz-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-buzz-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-buzz.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-buzz.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-down.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-down.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-drop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-drop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-fade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-fade.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-float-away.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-float-away.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-float.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-forward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-forward.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-grow-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-grow-rotate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-grow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-hang.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-hang.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-pop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-pop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-pulse-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-pulse-grow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-pulse-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-pulse-shrink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-pulse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-push.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-push.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-rotate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-shrink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-sink-away.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-sink-away.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-sink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-sink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-spin.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-spin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-up.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-up.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-wobble-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-wobble-horizontal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/icons/_icon-wobble-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/icons/_icon-wobble-vertical.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/_mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/_options.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/_options.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_outline-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_outline-in.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_outline-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_outline-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_overline-from-center.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_overline-from-center.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_overline-from-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_overline-from-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_overline-from-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_overline-from-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_overline-reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_overline-reveal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_pop.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_pop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_pulse-grow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_pulse-grow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_pulse-shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_pulse-shrink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_pulse.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_pulse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_push.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_push.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_radial-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_radial-in.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_radial-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_radial-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_rectangle-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_rectangle-in.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_rectangle-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_rectangle-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_reveal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_ripple-in.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-in.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_ripple-out.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-out.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_rotate.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_rotate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_round-corners.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_round-corners.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_shadow-radial.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_shadow-radial.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/shadow-and-glow-transitions/_shadow.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/shadow-and-glow-transitions/_shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_shrink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_shrink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_shutter-in-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_shutter-in-horizontal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_shutter-in-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_shutter-in-vertical.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_shutter-out-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_shutter-out-horizontal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_shutter-out-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_shutter-out-vertical.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_sink.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_sink.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_skew-backward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_skew-backward.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_skew-forward.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_skew-forward.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_skew.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_skew.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_sweep-to-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_sweep-to-bottom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_sweep-to-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_sweep-to-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_sweep-to-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_sweep-to-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/background-transitions/_sweep-to-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/background-transitions/_sweep-to-top.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_trim.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_trim.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_underline-from-center.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_underline-from-center.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_underline-from-left.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_underline-from-left.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_underline-from-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_underline-from-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/border-transitions/_underline-reveal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_underline-reveal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-bottom.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-bottom.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-horizontal.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-horizontal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-skew.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-skew.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-to-bottom-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-to-bottom-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-to-top-right.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-to-top-right.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-top.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-top.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/effects/2d-transitions/_wobble-vertical.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/effects/2d-transitions/_wobble-vertical.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/css/demo-page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/css/hover-min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/hover.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/css/hover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/hover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/less/hover.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/scss/hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/hover/package.json" />
+    <list default="true" id="5293c00a-ec43-47b3-8054-25d129abba02" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/_general.scss" afterPath="$PROJECT_DIR$/assets/css/_general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css.map" afterPath="$PROJECT_DIR$/assets/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/menu/menuView.html" afterPath="$PROJECT_DIR$/app/shared/menu/menuView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/projects/projectsView.html" afterPath="$PROJECT_DIR$/app/pages/projects/projectsView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angular-test.iws" />
@@ -279,18 +36,28 @@
       <file leaf-file-name="_general.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="1411" max-vertical-offset="3281">
-              <caret line="103" column="24" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
+            <state vertical-scroll-proportion="-15.807693" vertical-offset="1068" max-vertical-offset="3332">
+              <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_ripple-out.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menuView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46896553" vertical-offset="0" max-vertical-offset="1275">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_ripple-out.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-out.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3908046" vertical-offset="0" max-vertical-offset="870">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="731">
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -331,7 +98,6 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/app/shared/menu/menuDirective.js" />
         <option value="$PROJECT_DIR$/app/shared/menu/menuController.js" />
-        <option value="$PROJECT_DIR$/app/shared/menu/menuView.html" />
         <option value="$PROJECT_DIR$/app/app.routes.js" />
         <option value="$PROJECT_DIR$/app/pages/home/homeController.js" />
         <option value="$PROJECT_DIR$/assets/css/_animations.scss" />
@@ -340,11 +106,12 @@
         <option value="$PROJECT_DIR$/assets/css/_mixins.scss" />
         <option value="$PROJECT_DIR$/app/app.module.js" />
         <option value="$PROJECT_DIR$/app/pages/projects/projectsController.js" />
-        <option value="$PROJECT_DIR$/app/pages/projects/projectsView.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/_general.scss" />
-        <option value="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-out.scss" />
         <option value="$PROJECT_DIR$/bower_components/hover/scss/_options.scss" />
+        <option value="$PROJECT_DIR$/app/pages/projects/projectsView.html" />
+        <option value="$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-out.scss" />
+        <option value="$PROJECT_DIR$/assets/css/_general.scss" />
+        <option value="$PROJECT_DIR$/app/shared/menu/menuView.html" />
       </list>
     </option>
   </component>
@@ -482,7 +249,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,11 +275,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="hover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="border-transitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -576,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -870,7 +661,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425247316149</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Social icon animation">
+      <created>1425249425115</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1425249425115</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -913,7 +710,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Roboto font&#10;&#10;From android" />
     <MESSAGE value="Nav buttons markup and styling&#10;&#10;These will be hidden if no back or forwards available" />
     <MESSAGE value="Changing colours of each main item div" />
     <MESSAGE value="Materialize" />
@@ -938,7 +734,8 @@
     <MESSAGE value="Align photo with mixins based on height" />
     <MESSAGE value="Routing parameters mapped to controller&#10;&#10;Displaying correctly filtered projects" />
     <MESSAGE value="Project item layout and styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project item layout and styling" />
+    <MESSAGE value="Social icon animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Social icon animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1205,6 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,14 +1063,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60505164" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/home/homeView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
@@ -1285,14 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="1003">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pages/projects/projectsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1329,14 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="1411" max-vertical-offset="3281">
-          <caret line="103" column="24" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/hover/scss/_options.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="870">
@@ -1345,10 +1119,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/projects/projectsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09770115" vertical-offset="0" max-vertical-offset="870">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/hover/scss/effects/border-transitions/_ripple-out.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3908046" vertical-offset="0" max-vertical-offset="870">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="731">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.807693" vertical-offset="1068" max-vertical-offset="3332">
+          <caret line="87" column="1" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/menu/menuView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46896553" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
