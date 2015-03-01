@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins";
+@import "../../bower_components/hover/scss/hover";
 
 html, body {
   height: 100%;
@@ -99,12 +100,16 @@ ul.side-nav {
   ul {
     margin: 0;
   }
+  a {
+    @include ripple-out;
+  }
   a, a:visited {
     color: $white;
   }
   i {
     font-size: 15pt;
   }
+
 }
 
 #by-line {
