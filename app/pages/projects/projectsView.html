@@ -1,5 +1,9 @@
 <div ng-controller="ProjectsController">
-    <div class="row project-item item waves-effect waves-block waves-light" ng-repeat="project in projects | filter: {category: category}" ng-style="{backgroundColor: project.color}">
+    <div class="row project-item item waves-effect waves-block waves-light"
+         ng-repeat="project in projects | filter: {category: category}"
+         ng-click="goTo(project.id)"
+         ng-style="{backgroundColor: project.color}">
+
         <div class="row">
             <div class="col-md-5 col-xs-12 h1">{{project.name}}</div>
             <p class="col-md-7 col-xs-12">

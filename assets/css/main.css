@@ -5460,7 +5460,7 @@ body {
   overflow-x: hidden; }
 
 nav {
-  background: #141414;
+  background: #232323;
   position: absolute;
   height: 64px; }
 
@@ -5469,7 +5469,7 @@ nav a.button-collapse i {
   line-height: 64px; }
 
 ul.side-nav {
-  background: #141414; }
+  background: #232323; }
   ul.side-nav a {
     color: #ffffff; }
 
@@ -5477,7 +5477,7 @@ ul.side-nav {
   min-width: 300px; }
 
 #menu {
-  background: #141414;
+  background: #232323;
   height: 100vh;
   min-height: 200px;
   position: fixed;
