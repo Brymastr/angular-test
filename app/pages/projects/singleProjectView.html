@@ -1,11 +1,15 @@
 <div ng-controller="ProjectsController">
-    <div class="row project-header">
-        <div class="col-md-12 col-sm-12 text-center h1">
-            {{projects[single].name}}
+    <div class="container-fluid">
+        <div class="row project-content">
+            <div class="col-md-12 text-center h1">
+                {{projects[single].name}}
+            </div>
         </div>
-        <p class="col-md-12">
-            {{projects[single].description}}
-        </p>
+        <div class="row project-content">
+            <p class="col-md-12">
+                {{projects[single].longDescription}}
+            </p>
+        </div>
+        {{setBgColor(projects[single].color)}}
     </div>
-    {{setBgColor(projects[single].color)}}
 </div>

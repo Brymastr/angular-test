@@ -1,6 +1,6 @@
 @import "variables";
 @import "mixins";
-@import "../../bower_components/hover/scss/hover";
+@import "menu";
 
 html, body {
   height: 100%;
@@ -10,117 +10,6 @@ body {
   font-family: Roboto-Light, sans-serif;
   color: $white;
   overflow-x: hidden;
-}
-
-nav {
-  background: $dark-background;
-  position: absolute;
-  height: 64px;
-}
-
-nav a.button-collapse i {
-  height: 64px;
-  line-height: 64px;
-}
-
-ul.side-nav {
-  background: $dark-background;
-  a {
-    color: $white;
-  }
-}
-
-.brand-logo {
-  min-width: 300px;
-}
-
-#menu {
-  background: $dark-background;
-  height: 100vh;
-  min-height: 200px;
-  position: fixed;
-  color: $white;
-  z-index: 100;
-}
-
-#banner {
-  font-family: Roboto-Light, sans-serif;
-  font-size: 3.5vw;
-  cursor: pointer;
-  @include vpw-max {
-    font-size: 42pt;
-  }
-  text-transform: uppercase;
-}
-
-#nav {
-  img {
-    max-height: 50px;
-  }
-  #nav-back {
-    transform: rotate(-90deg);
-  }
-  #nav-forward {
-    transform: rotate(90deg);
-  }
-  #nav-divider {
-    background-image: url("/assets/img/nav-div-icon.png");
-    height: 3px;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-#photo-div {
-  @include vph-medium {
-    margin-top: 10vh;
-  }
-  @include vph-large {
-    margin-top: 20vh;
-  }
-  #face-photo {
-    max-width: 150px;
-    margin: 0 auto;
-    @include vph-small {
-      display: none;
-    }
-  }
-}
-
-#menu-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  p {
-    margin-bottom: 5px;
-  }
-}
-
-#social-links {
-  ul {
-    margin: 0;
-  }
-  a {
-    @include ripple-out;
-  }
-  a, a:visited {
-    color: $white;
-  }
-  i {
-    font-size: 15pt;
-  }
-
-}
-
-#by-line {
-  color: rgba(236, 236, 236, 0.43);
-  a, a:visited {
-    color: #b8b8b8;
-  }
-}
-
-.cursor-heart {
-  cursor: url('../../assets/img/heart-icon.png') 16 12, auto;
 }
 
 #main {

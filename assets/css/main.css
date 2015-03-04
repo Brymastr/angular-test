@@ -5451,14 +5451,6 @@
     width: 25px;
     height: 25px; }
 
-html, body {
-  height: 100%; }
-
-body {
-  font-family: Roboto-Light, sans-serif;
-  color: #ffffff;
-  overflow-x: hidden; }
-
 nav {
   background: #232323;
   position: absolute;
@@ -5569,6 +5561,14 @@ ul.side-nav {
 .cursor-heart {
   cursor: url("../../assets/img/heart-icon.png") 16 12, auto; }
 
+html, body {
+  height: 100%; }
+
+body {
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff;
+  overflow-x: hidden; }
+
 @media only screen and (max-width: 60em) {
   #main {
     margin-top: 64px; } }
@@ -5621,5 +5621,15 @@ ul.side-nav {
 
 .item:hover {
   background-color: orange !important; }
+
+.shadow, .project-content {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.project-content {
+  background: #ffffff;
+  color: #232323;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
