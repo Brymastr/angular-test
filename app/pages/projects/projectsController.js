@@ -13,6 +13,10 @@ app.controller('ProjectsController', function($scope, $location, $routeParams) {
         }
     };
 
+    $scope.setBgColor = function(color) {
+        $('body').css({backgroundColor: color});
+    };
+
     $scope.goTo = function(path) {
         $location.path('projects/' + $scope.category + '/' + path)
     };
