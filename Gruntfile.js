@@ -4,9 +4,19 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
+    concat: {
+      js: {
+        src: [
+          'app/app.module.js',
+          'app/app.routes.js',
+          'app/**/*.js'
+        ],
+        dest: 'app/app.min.js'
+      }
+    },
     uglify: {
       js: {
-        src: ['app/app.module.js'],
+        src: 'app/app.min.js',
         dest: 'app/app.min.js'
       }
     }
@@ -15,6 +25,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', 'uglify:js');
+  grunt.registerTask('default', [
+    'concat:js',
+    'uglify:js'
+  ]);
 
 };
