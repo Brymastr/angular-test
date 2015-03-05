@@ -54,14 +54,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-auto-install');
 
   grunt.registerTask('default', [
-    'concat:angular',
-    'concat:app',
-    'uglify:angular',
-    'uglify:app',
-    'cssmin:target'
+    'concat',
+    'uglify',
+    'cssmin'
   ]);
 
-  grunt.registerTask('install', 'auto_install:local');
+  grunt.registerTask('install', 'auto_install');
 
 
 };
