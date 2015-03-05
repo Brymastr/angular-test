@@ -36,6 +36,4 @@ bower_components
 .DS_Store
 
 # Generated files - grunt
-app/app.min.js
-assets/css/style.min.css
 
