@@ -35,4 +35,6 @@ bower_components
 # OS X specific
 .DS_Store
 
+# Generated files - grunt
+app/app.min.js
 
