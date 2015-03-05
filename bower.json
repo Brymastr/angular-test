@@ -1,0 +1,27 @@
+{
+  "name": "angular-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Brymastr/angular-test",
+  "authors": [
+    "Brycen Dorsay <dorsay@live.ca>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "normalize.css": "~3.0.2",
+    "bootstrap": "~3.3.2",
+    "jquery": "~2.1.3",
+    "hover": "~2.0.2",
+    "materialize": "~0.95.3",
+    "angular": "~1.3.14",
+    "angular-animate": "~1.3.14",
+    "angular-route": "~1.3.14"
+  }
+}
