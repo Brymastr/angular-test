@@ -37,4 +37,5 @@ bower_components
 
 # Generated files - grunt
 app/app.min.js
+assets/css/style.min.css
 

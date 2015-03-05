@@ -4,6 +4,13 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
+    cssmin: {
+      target: {
+        files: {
+          'assets/css/style.min.css': 'assets/css/main.css'
+        }
+      }
+    },
     concat: {
       js: {
         src: [
@@ -24,10 +31,12 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', [
     'concat:js',
-    'uglify:js'
+    'uglify:js',
+    'cssmin:target'
   ]);
 
 };
