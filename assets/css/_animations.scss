@@ -7,13 +7,13 @@
 }
 
 .page.ng-enter {
-  -webkit-animation: 0.5s slide-animation-enter;
-  animation: 0.5s slide-animation-enter;
+  -webkit-animation: 0.5s bounceInLeft;
+  animation: 0.5s bounceInLeft;
 }
 
 .page.ng-leave {
-  -webkit-animation: 0.5s slide-animation-leave;
-  animation: 0.5s slide-animation-leave;
+  -webkit-animation: 0.5s bounceOutRight;
+  animation: 0.5s bounceOutRight;
 }
 
 @keyframes slide-animation-enter {
