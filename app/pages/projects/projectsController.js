@@ -69,8 +69,8 @@ var projects = [
         color: materialColors[4]
     }, {
         id: 5,
-        name: 'Eat, Play, Sleep',
-        shortDescription: 'A website I am building with a team at BCIT that provides hotel, restaurant, and attraction information from Yelp.com and other rating sources.',
+        name: 'MarketSpace',
+        shortDescription: 'Event ticket distribution system for the MarketSpace e-commerce platform by Daniel Flippance',
         longDescription: 'Long Description',
         technologies: ['Codeigniter 3', 'Bootstrap 3', 'MySql'],
         category: 'web',
@@ -78,7 +78,7 @@ var projects = [
     }, {
         id: 6,
         name: 'OverAchiever',
-        shortDescription: 'An Android application tracks your location and awards you points when you arrive at a predefined location.',
+        shortDescription: 'An Android application that tracks your location and awards you points when you arrive at a predefined location.',
         longDescription: 'Long Description',
         technologies: ['Android', 'SQLite3'],
         category: 'mobile',
