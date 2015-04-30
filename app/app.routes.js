@@ -19,8 +19,11 @@ app.config(function($routeProvider, $locationProvider) {
         .when('/projects/:category/:single', {
             templateUrl: '../app/pages/projects/singleProjectView.html',
             controller: 'ProjectsController'
-        }
-    );
+        })
+        .when('/exp', {
+            templateUrl: '../app/pages/resume/resumeView.html',
+            controller: 'ResumeController'
+      });
 
     $locationProvider.html5Mode(true);
 });

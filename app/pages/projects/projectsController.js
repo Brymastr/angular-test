@@ -27,9 +27,9 @@ var projects = [
     {
         id: 0,
         name: 'Tasty Ratios',
-        shortDescription: 'An Android application I built with a team at BCIT that interfaces with the ReFleX Wireless Inc. bluetooth food scale for creating and following recipes',
+        shortDescription: 'An Android application interfaces with the ReFleX Wireless Inc. NutriCrystal for creating and following recipes',
         longDescription: 'Long Descritpion',
-        technologies: ['Android', 'Bluetooth', 'Bootstrap 3', 'Materialize'],
+        technologies: ['Android', 'Bluetooth'],
         category: 'mobile',
         color: materialColors[0]
     }, {
@@ -37,7 +37,7 @@ var projects = [
         name: 'ClickRacer',
         shortDescription: 'A website I built as a game that counts how many times you can click the mouse in 10 seconds',
         longDescription: 'Long Description',
-        technologies: ['PHP', 'Laravel 4', 'Bootstrap 3', 'MySql'],
+        technologies: ['PHP', 'Laravel 4', 'Bootstrap 3', 'MySQL'],
         category: 'web',
         url: 'http://click-racer.com',
         color: materialColors[1]
@@ -46,7 +46,7 @@ var projects = [
         name: 'Randomizr',
         shortDescription: 'A website I built that encapsulates user specified website URL\'s into a new link that forwards randomly to one of the specified websites',
         longDescription: 'Long Description',
-        technologies: ['PHP', 'Laravel 4', 'MySql', 'Materialize'],
+        technologies: ['PHP', 'Laravel 4', 'MySQL', 'Materialize'],
         category: 'web',
         url: 'http://randomizr.link',
         image: 'randomizr.png',
@@ -54,7 +54,7 @@ var projects = [
     }, {
         id: 3,
         name: 'Convoy',
-        shortDescription: 'A mobile platform for tracking the location of users in the context of group travel',
+        shortDescription: 'A mobile platform for tracking the location of users while traveling in a group',
         longDescription: 'Long Description',
         technologies: ['Android', 'Parse.com'],
         category: 'mobile',
@@ -64,7 +64,7 @@ var projects = [
         name: 'StudentConnect',
         shortDescription: 'An iOS 8 concept application that enables instructors to more easily and directly communicate with students',
         longDescription: 'Long Description',
-        technologies: ['iOS 8', 'Swift', 'Node.js', 'Express.js', 'ASP.NET MVC 4', 'MySql/MongoDB/SQLite3'],
+        technologies: ['iOS 8', 'Swift', 'Parse.com'],
         category: 'mobile',
         color: materialColors[4]
     }, {
@@ -80,7 +80,7 @@ var projects = [
         name: 'StudentConnect',
         shortDescription: 'ASP MVC 5 concept website that enables instructors to more easily and directly communicate with students',
         longDescription: 'Long Description',
-        technologies: ['ASP.NET', 'AngularJS', 'Bootstrap 3'],
+        technologies: ['ASP.NET', 'MySQL', 'AngularJS', 'Bootstrap 3'],
         category: 'web',
         color: materialColors[6]
     }, {

@@ -1,19 +1,16 @@
-<div ng-controller="ProjectsController">
-
-    <div class="container-fluid">
-        <div class="row project-content">
-            <div class="col-md-12 text-center project-title">
-                {{project.name}}
-            </div>
-            <div class="col-md-12 text-center project-secondary-title">
-                <strong ng-repeat="tech in project.technologies">{{tech}}</strong>
-            </div>
+<div class="container-fluid">
+    <div class="row project-content">
+        <div class="col-md-12 text-center project-title">
+            {{project.name}}
         </div>
-        <div class="row project-content">
-            <p class="col-md-12 text-center">
-                <img ng-src="/assets/img/{{project.image}}" alt=""/>
-            </p>
+        <div class="col-md-12 text-center project-secondary-title">
+            <strong ng-repeat="tech in project.technologies">{{tech}}</strong>
         </div>
-        {{setBgColor(projects[single].color)}}
     </div>
+    <div class="row project-content">
+        <p class="col-md-12 text-center">
+            <img ng-src="/assets/img/{{project.image}}" alt=""/>
+        </p>
+    </div>
+    {{setBgColor(projects[single].color)}}
 </div>

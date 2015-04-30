@@ -5591,7 +5591,7 @@ body {
 .item:hover {
   background-color: #FFA500 !important; }
 
-.shadow, .project-content {
+.shadow, .project-content, .resume-content {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -5615,5 +5615,13 @@ body {
     padding-right: 10px; }
   .project-secondary-title strong:last-child {
     padding-right: 0; }
+
+.resume-content {
+  background: #ffffff;
+  color: #232323;
+  margin-top: 20px; }
+
+.resume-company {
+  font-size: 20pt; }
 
 /*# sourceMappingURL=main.css.map */

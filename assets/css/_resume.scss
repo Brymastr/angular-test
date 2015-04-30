@@ -1,0 +1,12 @@
+@import "variables";
+
+.resume-content {
+  background: #ffffff;
+  color: $dark-background;
+  margin-top: 20px;
+  @extend .shadow;
+}
+
+.resume-company {
+  font-size: $resume-company-font-size;
+}
