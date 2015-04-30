@@ -32,8 +32,17 @@ ul.side-nav {
 
 }
 
+.nav-wrapper a:hover {
+  text-decoration: none;
+  color: #0574d0;
+}
+
 .brand-logo {
   min-width: 300px;
+}
+
+.mdi-navigation-menu {
+  margin-left: 10px;
 }
 
 #menu {

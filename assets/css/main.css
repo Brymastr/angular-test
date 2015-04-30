@@ -25,34 +25,6 @@
   -webkit-animation: 0.5s bounceOutRight;
   animation: 0.5s bounceOutRight; }
 
-@keyframes slide-animation-enter {
-  from {
-    left: 600px;
-    opacity: 0; }
-  to {
-    left: 15px;
-    opacity: 1; } }
-@keyframes slide-animation-leave {
-  from {
-    left: 15px;
-    opacity: 1; }
-  to {
-    left: -1000px;
-    opacity: 0; } }
-@-webkit-keyframes slide-animation-enter {
-  from {
-    left: 1000px;
-    opacity: 0; }
-  to {
-    left: 15px;
-    opacity: 1; } }
-@-webkit-keyframes slide-animation-leave {
-  from {
-    left: 15px;
-    opacity: 1; }
-  to {
-    left: -1000px;
-    opacity: 0; } }
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.2
@@ -5474,8 +5446,15 @@ ul.side-nav {
   width: 80%;
   max-width: 300px; }
 
+.nav-wrapper a:hover {
+  text-decoration: none;
+  color: #0574d0; }
+
 .brand-logo {
   min-width: 300px; }
+
+.mdi-navigation-menu {
+  margin-left: 10px; }
 
 #menu {
   background: #232323;
@@ -5595,7 +5574,7 @@ body {
     margin: 0; }
 
 .item:hover {
-  background-color: orange !important; }
+  background-color: #FFA500 !important; }
 
 .shadow, .project-content {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
