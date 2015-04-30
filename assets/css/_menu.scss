@@ -20,6 +20,18 @@ ul.side-nav {
   }
 }
 
+.logo-container {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.logo {
+  width: 80%;
+  max-width: 300px;
+
+}
+
 .brand-logo {
   min-width: 300px;
 }
@@ -31,50 +43,6 @@ ul.side-nav {
   position: fixed;
   color: $white;
   z-index: 100;
-}
-
-#banner {
-  font-family: Roboto-Light, sans-serif;
-  font-size: 3.5vw;
-  cursor: pointer;
-  @include vpw-max {
-    font-size: 42pt;
-  }
-  text-transform: uppercase;
-}
-
-#nav {
-  img {
-    max-height: 50px;
-  }
-  #nav-back {
-    transform: rotate(-90deg);
-  }
-  #nav-forward {
-    transform: rotate(90deg);
-  }
-  #nav-divider {
-    background-image: url("/assets/img/nav-div-icon.png");
-    height: 3px;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-#photo-div {
-  @include vph-medium {
-    margin-top: 10vh;
-  }
-  @include vph-large {
-    margin-top: 20vh;
-  }
-  #face-photo {
-    max-width: 150px;
-    margin: 0 auto;
-    @include vph-small {
-      display: none;
-    }
-  }
 }
 
 #menu-footer {

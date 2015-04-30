@@ -5465,6 +5465,15 @@ ul.side-nav {
   ul.side-nav a {
     color: #ffffff; }
 
+.logo-container {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%); }
+
+.logo {
+  width: 80%;
+  max-width: 300px; }
+
 .brand-logo {
   min-width: 300px; }
 
@@ -5475,40 +5484,6 @@ ul.side-nav {
   position: fixed;
   color: #ffffff;
   z-index: 100; }
-
-#banner {
-  font-family: Roboto-Light, sans-serif;
-  font-size: 3.5vw;
-  cursor: pointer;
-  text-transform: uppercase; }
-  @media only screen and (min-width: 100em) {
-    #banner {
-      font-size: 42pt; } }
-
-#nav img {
-  max-height: 50px; }
-#nav #nav-back {
-  transform: rotate(-90deg); }
-#nav #nav-forward {
-  transform: rotate(90deg); }
-#nav #nav-divider {
-  background-image: url("/assets/img/nav-div-icon.png");
-  height: 3px;
-  width: 100%;
-  margin-bottom: 20px; }
-
-@media only screen and (min-height: 27em) {
-  #photo-div {
-    margin-top: 10vh; } }
-@media only screen and (min-height: 40em) {
-  #photo-div {
-    margin-top: 20vh; } }
-#photo-div #face-photo {
-  max-width: 150px;
-  margin: 0 auto; }
-  @media only screen and (max-height: 27em) {
-    #photo-div #face-photo {
-      display: none; } }
 
 #menu-footer {
   position: absolute;
