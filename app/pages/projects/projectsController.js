@@ -56,7 +56,7 @@ var projects = [
         name: 'Convoy',
         shortDescription: 'A mobile platform for tracking the location of users in the context of group travel',
         longDescription: 'Long Description',
-        technologies: ['Android', 'Node.js', 'Express.js', 'MongoDB'],
+        technologies: ['Android', 'Parse.com'],
         category: 'mobile',
         color: materialColors[3]
     }, {
@@ -84,6 +84,12 @@ var projects = [
         category: 'web',
         color: materialColors[6]
     }, {
-
+        id: 7,
+        name: 'Light Material',
+        shortDescription: 'Wordpress theme utilizing the Materialize CSS framework including two custom plugins for the header and slider',
+        longDescription: 'Long Description',
+        technologies: ['WordPress', 'MaterializeCSS'],
+        category: 'web',
+        color: materialColors[7]
     }
 ];
