@@ -1,3 +1,9 @@
+@mixin vpw($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
 @mixin vpw-small {
   @media only screen and (max-width: 60em) {
     @content;

@@ -5448,13 +5448,28 @@ ul.side-nav {
 
 .nav-wrapper a:hover {
   text-decoration: none;
-  color: #0574d0; }
+  color: #25AAE1; }
 
 .brand-logo {
-  min-width: 300px; }
+  min-width: 400px; }
+  @media only screen and (max-width: 450px) {
+    .brand-logo span {
+      font-size: 15pt; } }
+
+.logo-primary {
+  font-weight: bolder; }
+
+.logo-secondary {
+  color: #25AAE1; }
 
 .mdi-navigation-menu {
   margin-left: 10px; }
+
+.no-hover:hover {
+  background: none !important; }
+
+.side-nav-image {
+  width: 80px; }
 
 #menu {
   background: #232323;

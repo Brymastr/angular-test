@@ -29,20 +29,40 @@ ul.side-nav {
 .logo {
   width: 80%;
   max-width: 300px;
-
 }
 
 .nav-wrapper a:hover {
   text-decoration: none;
-  color: #0574d0;
+  color: $primary-accent-color;
 }
 
 .brand-logo {
-  min-width: 300px;
+  min-width: 400px;
+  span {
+    @include vpw(450px) {
+      font-size: 15pt;
+    }
+  }
+}
+
+.logo-primary {
+  font-weight: bolder;
+}
+
+.logo-secondary {
+  color: $primary-accent-color;
 }
 
 .mdi-navigation-menu {
   margin-left: 10px;
+}
+
+.no-hover:hover {
+    background: none !important;
+}
+
+.side-nav-image {
+  width: 80px;
 }
 
 #menu {
