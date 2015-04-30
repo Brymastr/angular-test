@@ -6,6 +6,7 @@ app.controller('ProjectsController', function($scope, $location, $routeParams) {
     $scope.projects = projects;
     $scope.category = $routeParams.category;
     $scope.single = $routeParams.single;
+    $scope.project = $scope.projects[$scope.single];
 
     $scope.isLast = function(check, color) {
         if(check) {
