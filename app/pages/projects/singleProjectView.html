@@ -1,13 +1,16 @@
 <div ng-controller="ProjectsController">
     <div class="container-fluid">
         <div class="row project-content">
-            <div class="col-md-12 text-center h1">
+            <div class="col-md-12 text-center project-title">
                 {{projects[single].name}}
+            </div>
+            <div class="col-md-12 text-center project-secondary-title">
+                <strong ng-repeat="tech in projects[single].technologies">{{tech}}</strong>
             </div>
         </div>
         <div class="row project-content">
-            <p class="col-md-12">
-                {{projects[single].longDescription}}
+            <p class="col-md-12 text-center">
+                <img src="/assets/img/randomizr.PNG" alt=""/>
             </p>
         </div>
         {{setBgColor(projects[single].color)}}

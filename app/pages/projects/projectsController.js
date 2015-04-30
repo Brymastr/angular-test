@@ -45,9 +45,10 @@ var projects = [
         name: 'Randomizr',
         shortDescription: 'A website I built that encapsulates user specified websites into a new link that forwards randomly to one of the specified websites.',
         longDescription: 'Long Description',
-        technologies: ['PHP', 'Laravel 4', 'MySql'],
+        technologies: ['PHP', 'Laravel 4', 'MySql', 'Materialize'],
         category: 'web',
         url: 'http://randomizr.link',
+        image: 'randomizr.png',
         color: materialColors[2]
     }, {
         id: 3,

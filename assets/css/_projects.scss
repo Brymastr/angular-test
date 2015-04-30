@@ -11,4 +11,29 @@
   color: $dark-background;
   margin-top: 20px;
   @extend .shadow;
+
+  p {
+    margin-top: 10px;
+  }
+
+  img {
+    width: 75%;
+  }
+}
+
+.project-title {
+  font-size: $title-font-size;
+}
+
+.project-secondary-title {
+  font-size: $project-secondary-title;
+  padding-bottom: 10px;
+
+  strong {
+    padding-right: 10px;
+  }
+
+  strong:last-child {
+    padding-right: 0;
+  }
 }

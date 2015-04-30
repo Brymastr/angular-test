@@ -5631,5 +5631,20 @@ body {
   background: #ffffff;
   color: #232323;
   margin-top: 20px; }
+  .project-content p {
+    margin-top: 10px; }
+  .project-content img {
+    width: 75%; }
+
+.project-title {
+  font-size: 35pt; }
+
+.project-secondary-title {
+  font-size: 15pt;
+  padding-bottom: 10px; }
+  .project-secondary-title strong {
+    padding-right: 10px; }
+  .project-secondary-title strong:last-child {
+    padding-right: 0; }
 
 /*# sourceMappingURL=main.css.map */
