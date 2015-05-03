@@ -5622,6 +5622,20 @@ body {
   margin-top: 20px; }
 
 .resume-company {
-  font-size: 20pt; }
+  font-size: 20pt;
+  height: 40px; }
+
+.resume-date {
+  height: 40px;
+  line-height: 40px;
+  font-size: 13pt; }
+  @media only screen and (max-width: 48em) {
+    .resume-date {
+      height: 15px;
+      line-height: 15px;
+      text-align: left; } }
+
+.resume-position {
+  font-size: 13pt; }
 
 /*# sourceMappingURL=main.css.map */

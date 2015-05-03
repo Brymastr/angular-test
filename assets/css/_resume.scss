@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 .resume-content {
   background: #ffffff;
@@ -9,4 +10,25 @@
 
 .resume-company {
   font-size: $resume-company-font-size;
+  height: $resume-heading-height;
+
+}
+
+.resume-date {
+  height: $resume-heading-height;
+  line-height: $resume-heading-height;
+  font-size: $resume-date-font-size;
+  @include vpw(48em) { // Less than 48em width
+    height: 15px;
+    line-height: 15px;
+    text-align: left;
+  }
+}
+
+.resume-position {
+  font-size: $resume-position-font-size;
+}
+
+.resume-description {
+
 }

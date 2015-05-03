@@ -12,5 +12,10 @@ var items = [
     position: 'Position name',
     description: 'description',
     date: 'from then to now'
+  }, {
+    company: 'Company Name',
+    position: 'Position name',
+    description: 'description',
+    date: 'from then to now'
   }
 ];
