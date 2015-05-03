@@ -1,0 +1,36 @@
+@import "variables";
+@import "mixins";
+
+.about-content {
+  background: #ffffff;
+  color: $dark-background;
+  margin-top: 20px;
+  @extend .shadow;
+
+  p {
+    margin-top: 10px;
+    @include vpw-small {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.about-title {
+  font-size: $title-font-size;
+}
+
+.about-heading {
+  font-size: $about-heading-font-size;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.about-face-photo {
+  img {
+    width: 200px;
+  }
+}

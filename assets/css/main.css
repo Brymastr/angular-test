@@ -5551,13 +5551,13 @@ body {
   @media only screen and (min-width: 100em) {
     #main .h1 {
       font-size: 35pt; } }
-#main p {
+#main p, #main li {
   font-size: 1.5vw; }
   @media only screen and (max-width: 60em) {
-    #main p {
-      font-size: 10pt; } }
+    #main p, #main li {
+      font-size: 13pt; } }
   @media only screen and (min-width: 100em) {
-    #main p {
+    #main p, #main li {
       font-size: 18pt; } }
 
 .row {
@@ -5591,7 +5591,7 @@ body {
 .item:hover {
   background-color: #FFA500 !important; }
 
-.shadow, .project-content, .resume-content {
+.shadow, .project-content, .resume-content, .about-content {
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -5637,5 +5637,29 @@ body {
 
 .resume-position {
   font-size: 13pt; }
+
+.about-content {
+  background: #ffffff;
+  color: #232323;
+  margin-top: 20px; }
+  .about-content p {
+    margin-top: 10px; }
+    @media only screen and (max-width: 60em) {
+      .about-content p {
+        padding-top: 10px;
+        padding-bottom: 10px; } }
+  .about-content:last-child {
+    margin-bottom: 20px; }
+
+.about-title {
+  font-size: 35pt; }
+
+.about-heading {
+  font-size: 18pt;
+  font-weight: bold;
+  padding-top: 10px; }
+
+.about-face-photo img {
+  width: 200px; }
 
 /*# sourceMappingURL=main.css.map */
