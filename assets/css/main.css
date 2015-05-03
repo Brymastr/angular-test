@@ -5672,4 +5672,15 @@ body {
   .bulleted li {
     list-style: disc; }
 
+.about-github, .about-bitbucket {
+  text-decoration: none;
+  color: #232323;
+  font-size: 7em; }
+  .about-github:hover, .about-bitbucket:hover {
+    color: #898989;
+    text-decoration: none; }
+
+.about-github {
+  border-right: 1px solid #a3a3a3; }
+
 /*# sourceMappingURL=main.css.map */

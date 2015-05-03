@@ -45,3 +45,17 @@
     list-style: disc;
   }
 }
+
+.about-github, .about-bitbucket {
+  text-decoration: none;
+  color: $dark-background;
+  font-size: 7em;
+  &:hover {
+    color: lighten($dark-background, 40%);
+    text-decoration: none;
+  }
+}
+
+.about-github {
+  border-right: 1px solid lighten($dark-background, 50%);
+}
