@@ -5660,6 +5660,7 @@ body {
   padding-top: 10px; }
 
 .about-face-photo img {
-  width: 200px; }
+  width: 200px;
+  margin-bottom: 0 !important; }
 
 /*# sourceMappingURL=main.css.map */
