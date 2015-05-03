@@ -5663,4 +5663,9 @@ body {
   width: 200px;
   margin-bottom: 0 !important; }
 
+.bulleted {
+  padding-left: 35px; }
+  .bulleted li {
+    list-style: disc; }
+
 /*# sourceMappingURL=main.css.map */

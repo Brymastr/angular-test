@@ -35,3 +35,10 @@
     margin-bottom: 0 !important;
   }
 }
+
+.bulleted {
+  padding-left: 35px;
+  li {
+    list-style: disc;
+  }
+}
