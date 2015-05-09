@@ -12,11 +12,10 @@ RUN     ln -s /usr/bin/nodejs /usr/bin/node
 # package manager packages
 RUN     npm install -g bower
 RUN     npm install -g grunt-cli
-#RUN     grunt
-#RUN     grunt serve
+RUN     npm install -g nodemon
 EXPOSE  9000
 
-# Start the app
-ADD start.sh /tmp/
-RUN chmod +x /tmp/start.sh
-CMD /tmp/start.sh
+WORKDIR /src
+ADD . /src
+
+CMD ["nodemon", "server.js"]
