@@ -12,14 +12,6 @@ module.exports = function(grunt) {
       }
     },
     concat: {
-      //angular: {
-      //  src: [
-      //    'bower_components/angular/angular.js',
-      //    'bower_components/angular-animate/angular-animate.js',
-      //    'bower_components/angular-route/angular-route.js'
-      //  ],
-      //  dest: 'app/angular.min.js'
-      //},
       app: {
         src: [
           'app/app.module.js',
@@ -30,6 +22,37 @@ module.exports = function(grunt) {
         dest: 'app/app.min.js'
       }
     },
+    watch: {
+      options: {
+        livereload: true
+      },
+      js: {
+        files: [
+          'app/app.module.js',
+          'app/app.routes.js',
+          'app/pages/**/*.js',
+          'app/shared/**/*.js'
+        ],
+        tasks: 'concat'
+      },
+      html: {
+        files: [
+          'app/pages/**/*.html',
+          'app/shared/**/*.html',
+          'index.html'
+        ],
+        tasks: []
+      },
+      css: {
+        files: 'public/css/style.css',
+        tasks: 'cssmin'
+      }
+    },
+    nodemon: {
+      dev: {
+        script: './server.js'
+      }
+    },
     auto_install: {
       local: {}
     }
@@ -38,12 +61,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-auto-install');
+  grunt.loadNpmTasks('grunt-nodemon');
 
-  grunt.registerTask('default', [
+  grunt.registerTask('build', [
     'concat',
     'cssmin'
   ]);
+
+  grunt.registerTask('default', ['watch', 'nodemon']);
 
   grunt.registerTask('install', 'auto_install');
 
