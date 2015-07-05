@@ -12,14 +12,14 @@ module.exports = function(grunt) {
       }
     },
     concat: {
-      angular: {
-        src: [
-          'bower_components/angular/angular.js',
-          'bower_components/angular-animate/angular-animate.js',
-          'bower_components/angular-route/angular-route.js'
-        ],
-        dest: 'app/angular.min.js'
-      },
+      //angular: {
+      //  src: [
+      //    'bower_components/angular/angular.js',
+      //    'bower_components/angular-animate/angular-animate.js',
+      //    'bower_components/angular-route/angular-route.js'
+      //  ],
+      //  dest: 'app/angular.min.js'
+      //},
       app: {
         src: [
           'app/app.module.js',
@@ -27,19 +27,6 @@ module.exports = function(grunt) {
           'app/pages/**/*.js',
           'app/shared/**/*.js'
         ],
-        dest: 'app/app.min.js'
-      }
-    },
-    uglify: {
-      options: {
-        mangle: false
-      },
-      angular: {
-        src: 'app/angular.min.js',
-        dest: 'app/angular.min.js'
-      },
-      app: {
-        src: 'app/app.min.js',
         dest: 'app/app.min.js'
       }
     },
@@ -55,7 +42,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', [
     'concat',
-    'uglify',
     'cssmin'
   ]);
 
