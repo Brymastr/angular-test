@@ -31,7 +31,8 @@ module.exports = function(grunt) {
           'app/app.module.js',
           'app/app.routes.js',
           'app/pages/**/*.js',
-          'app/shared/**/*.js'
+          'app/shared/**/*.js',
+          'Gruntfile.js'
         ],
         tasks: 'concat'
       },
@@ -44,17 +45,31 @@ module.exports = function(grunt) {
         tasks: []
       },
       css: {
-        files: 'public/css/style.css',
+        files: 'assets/css/main.css',
         tasks: 'cssmin'
       }
     },
     nodemon: {
       dev: {
-        script: './server.js'
+        script: 'server.js'
       }
     },
     auto_install: {
       local: {}
+    },
+    markdown: {
+      all: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            cwd: 'blog/',
+            src: ['**/*.md'],
+            dest: 'blog/compiled/',
+            ext: '.html'
+          }
+        ]
+      }
     }
   });
 
@@ -64,13 +79,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-markdown');
 
   grunt.registerTask('build', [
     'concat',
     'cssmin'
   ]);
 
-  grunt.registerTask('default', ['watch', 'nodemon']);
+  grunt.registerTask('default', ['build', 'markdown', 'nodemon', 'watch']);
 
   grunt.registerTask('install', 'auto_install');
 
