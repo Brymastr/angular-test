@@ -4,6 +4,15 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
+    concurrent: {
+      target: {
+        tasks: [
+          'watch',
+          'nodemon'
+        ],
+        options: {logConcurrentOutput: true}
+      }
+    },
     cssmin: {
       target: {
         files: {
@@ -47,6 +56,14 @@ module.exports = function(grunt) {
       css: {
         files: 'assets/css/main.css',
         tasks: 'cssmin'
+      },
+      markdown: {
+        files: 'blog/markdown/**/*.md',
+        tasks: 'markdown'
+      },
+      blog: {
+        files: 'blog/compiled/**/*.html',
+        tasks: []
       }
     },
     nodemon: {
@@ -79,14 +96,16 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-markdown');
 
   grunt.registerTask('build', [
     'concat',
-    'cssmin'
+    'cssmin',
+    'markdown'
   ]);
 
-  grunt.registerTask('default', ['build', 'markdown', 'nodemon', 'watch']);
+  grunt.registerTask('default', ['build', 'concurrent:target']);
 
   grunt.registerTask('install', 'auto_install');
 
