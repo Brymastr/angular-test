@@ -35,13 +35,19 @@ module.exports = function(grunt) {
       options: {
         livereload: true
       },
+      server: {
+        files: [
+          'server/**/*.js',
+          'Gruntfile.js'
+        ],
+        tasks: []
+      },
       js: {
         files: [
           'app/app.module.js',
           'app/app.routes.js',
           'app/pages/**/*.js',
-          'app/shared/**/*.js',
-          'Gruntfile.js'
+          'app/shared/**/*.js'
         ],
         tasks: 'concat'
       },
@@ -58,12 +64,8 @@ module.exports = function(grunt) {
         tasks: 'cssmin'
       },
       markdown: {
-        files: 'blog/markdown/**/*.md',
-        tasks: 'markdown'
-      },
-      blog: {
-        files: 'blog/compiled/**/*.html',
-        tasks: []
+        files: 'server/blog/markdown/**/*.md',
+        tasks: 'syncAll'
       }
     },
     nodemon: {
@@ -73,20 +75,6 @@ module.exports = function(grunt) {
     },
     auto_install: {
       local: {}
-    },
-    markdown: {
-      all: {
-        files: [
-          {
-            expand: true,
-            flatten: true,
-            cwd: 'blog/',
-            src: ['**/*.md'],
-            dest: 'blog/compiled/',
-            ext: '.html'
-          }
-        ]
-      }
     }
   });
 
@@ -96,18 +84,19 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-auto-install');
   grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-http');
   grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-markdown');
 
   grunt.registerTask('build', [
     'concat',
-    'cssmin',
-    'markdown'
+    'cssmin'
   ]);
 
   grunt.registerTask('default', ['build', 'concurrent:target']);
 
   grunt.registerTask('install', 'auto_install');
 
+  grunt.registerTask('syncAll', 'http');
 
 };
