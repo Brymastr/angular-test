@@ -4,6 +4,15 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
+    concurrent: {
+      target: {
+        tasks: [
+          'watch',
+          'nodemon'
+        ],
+        options: {logConcurrentOutput: true}
+      }
+    },
     cssmin: {
       target: {
         files: {
@@ -12,14 +21,6 @@ module.exports = function(grunt) {
       }
     },
     concat: {
-      angular: {
-        src: [
-          'bower_components/angular/angular.js',
-          'bower_components/angular-animate/angular-animate.js',
-          'bower_components/angular-route/angular-route.js'
-        ],
-        dest: 'app/angular.min.js'
-      },
       app: {
         src: [
           'app/app.module.js',
@@ -30,17 +31,46 @@ module.exports = function(grunt) {
         dest: 'app/app.min.js'
       }
     },
-    uglify: {
+    watch: {
       options: {
-        mangle: false
+        livereload: true
       },
-      angular: {
-        src: 'app/angular.min.js',
-        dest: 'app/angular.min.js'
+      server: {
+        files: [
+          'server/**/*.js',
+          'Gruntfile.js'
+        ],
+        tasks: []
       },
-      app: {
-        src: 'app/app.min.js',
-        dest: 'app/app.min.js'
+      js: {
+        files: [
+          'app/app.module.js',
+          'app/app.routes.js',
+          'app/pages/**/*.js',
+          'app/shared/**/*.js'
+        ],
+        tasks: 'concat'
+      },
+      html: {
+        files: [
+          'app/pages/**/*.html',
+          'app/shared/**/*.html',
+          'index.html'
+        ],
+        tasks: []
+      },
+      css: {
+        files: 'assets/css/main.css',
+        tasks: 'cssmin'
+      },
+      markdown: {
+        files: 'server/blog/markdown/**/*.md',
+        tasks: 'syncAll'
+      }
+    },
+    nodemon: {
+      dev: {
+        script: 'server.js'
       }
     },
     auto_install: {
@@ -51,15 +81,22 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-auto-install');
+  grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-http');
+  grunt.loadNpmTasks('grunt-concurrent');
+  grunt.loadNpmTasks('grunt-markdown');
 
-  grunt.registerTask('default', [
+  grunt.registerTask('build', [
     'concat',
-    'uglify',
     'cssmin'
   ]);
 
+  grunt.registerTask('default', ['build', 'concurrent:target']);
+
   grunt.registerTask('install', 'auto_install');
 
+  grunt.registerTask('syncAll', 'http');
 
 };

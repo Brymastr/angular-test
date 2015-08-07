@@ -5,23 +5,23 @@
 app.config(function($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: '../app/pages/home/homeView.html',
+            templateUrl: 'app/pages/home/home.view.html',
             controller: 'HomeController'
         })
         .when('/about', {
-            templateUrl: '../app/pages/about/aboutView.html',
+            templateUrl: 'app/pages/about/about.view.html',
             controller: 'AboutController'
         })
         .when('/projects/:category', {
-            templateUrl: '../app/pages/projects/projectsView.html',
+            templateUrl: 'app/pages/projects/projects.view.html',
             controller: 'ProjectsController'
         })
         .when('/projects/:category/:single', {
-            templateUrl: '../app/pages/projects/singleProjectView.html',
+            templateUrl: 'app/pages/projects/singleProject.view.html',
             controller: 'ProjectsController'
         })
         .when('/exp', {
-            templateUrl: '../app/pages/resume/resumeView.html',
+            templateUrl: 'app/pages/resume/resume.view.html',
             controller: 'ResumeController'
       });
 
