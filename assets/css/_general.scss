@@ -9,7 +9,7 @@ html, body {
 body {
   font-family: Roboto-Light, sans-serif;
   color: $white;
-  //background-color: $main-background;
+  background-color: $main-background;
   overflow-x: hidden;
 }
 
@@ -39,11 +39,11 @@ body {
   }
 }
 
-// Unintended scrollbar issue fix
-
+// Bootstrap/Materialize fix (terrible, I know)
 .row {
   margin-left: -15px;
   margin-right: -15px;
+  margin-bottom: 0;
 }
 
 .home-item {
@@ -60,9 +60,6 @@ body {
   @include vpw-medium {
     min-height: 125px;
   }
-}
-
-.project-tech {
 }
 
 .item {
