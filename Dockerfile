@@ -10,5 +10,5 @@ RUN     npm install
 RUN     bower install --allow-root
 
 # Run application
-EXPOSE  9000
-CMD ["nodemon", "server.js"]
+EXPOSE  80
+CMD ["node", "server.js"]
